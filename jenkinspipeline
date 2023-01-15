@@ -1,9 +1,9 @@
 pipeline{
   agent any
   stages{
-    stage('Build')
-    stage('Deploy')
-    stage('Test')
-    stage('Release')
+    stage('Build') //steps('')
+    stage('Deploy') //steps('')
+    stage('Test') //steps('')
+    stage('Release') //steps('')
   }
 }
