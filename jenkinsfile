@@ -2,7 +2,11 @@ pipeline{
   agent any
   stages{
     stage('Build'){
-      steps
+      steps{
+        bat 'set'
+        echo on
+        echo "Build"
+      }
     }//steps{}
     stage('Deploy'){
       steps
