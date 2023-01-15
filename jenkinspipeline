@@ -1,0 +1,9 @@
+pipeline{
+  agent any
+  stages{
+    stage('Build')
+    stage('Deploy')
+    stage('Test')
+    stage('Release')
+  }
+}
